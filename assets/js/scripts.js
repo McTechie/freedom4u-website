@@ -12,4 +12,7 @@ $(document).ready(function(){
       $('#carouselButton').children('span').removeClass('fa-play');
     }
   });
+  $('#donationButton').click(function(){
+    $('#donationModal').modal('show');
+  });
 });
