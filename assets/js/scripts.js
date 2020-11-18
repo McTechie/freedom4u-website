@@ -15,4 +15,7 @@ $(document).ready(function(){
   $('#donationButton').click(function(){
     $('#donationModal').modal('show');
   });
+  $('#donationSubmit').click(function(){
+    document.getElementById("donationModal").submit();
+  });
 });
