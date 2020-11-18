@@ -42,6 +42,13 @@ body {
 .jumbotron .container .row {
     font-size: 120%;
 }
+.greeting {
+    margin-top: 30px;
+    font-size: 200%;
+}
+.greeting span {
+    color: #512DA8;
+}
 .carousel {
     background: #512DA8;
 }
@@ -95,6 +102,9 @@ body {
 }
 
 @media (min-width: 992px) {
+    .greeting {
+        font-size: 700%;
+    }
     .carousel-item {
         height: 650px;
     }
