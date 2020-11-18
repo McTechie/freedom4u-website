@@ -1,5 +1,7 @@
 body {
     background-color: floralwhite;
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
 }
 ::selection {
     background: #5cbdaa;
@@ -22,9 +24,11 @@ body {
 }
 .jumbotron {
     margin: 0px auto;
-    padding: 70px 30px;
     background: #9575CD;
     color: floralwhite;
+}
+.jumbotron .container .row {
+    font-size: 120%;
 }
 
 @media (min-width: 992px) {
