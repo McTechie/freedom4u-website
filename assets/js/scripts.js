@@ -19,3 +19,7 @@ $(document).ready(function(){
     document.getElementById("donationModal").submit();
   });
 });
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
