@@ -75,6 +75,12 @@ body {
     margin: 0px auto;
     padding: 20px 0px;
 }
+.project-card {
+    text-align: center;
+}
+.card-img-top {
+    height: 300px;
+}
 
 @media (min-width: 992px) {
     .carousel .carousel-item {
@@ -83,5 +89,8 @@ body {
     .carousel-caption h5 {
         color: #000;
         font-size: 200%;
+    }
+    .card-img-top {
+        height: 400px;
     }
 }
