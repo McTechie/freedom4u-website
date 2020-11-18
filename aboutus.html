@@ -48,22 +48,107 @@
         </nav>
         <!-- Navbar End -->
 
+        <!-- Donation Modal Start -->
+        <div class="modal fade" id="donationModal" role="form">
+            <div class="modal-dialog modal-lg" role="content">
+                <div class="modal-content justify-content-center">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Help Us Help Others! 🌱</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-row">
+                            <div class="col-md-2">
+                                <label for="firstname">Your Name </label>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control form-control-md mr-1" id="firstname" placeholder="Firstname">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <input type="text" class="form-control form-control-md mr-1" id="surname" placeholder="Surname">
+                            </div>
+                        </div>
+                        <div class="form-row mt-md-2">
+                            <div class="form-group col-md-4">
+                                <label for="dob">Date of Birth </label>
+                                <input type="text" class="form-control form-control-md mr-1" id="dob" placeholder="DD-MM-YY">
+                            </div>
+                            <div class="form-group offset-md-1 col-md-4">
+                                <label for="gender">Gender </label>
+                                <select class="form-control" id="gender">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                    <option>Prefer not to Say</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row mt-md-2">
+                            <div class="form-group col-md-4">
+                                <label for="phone">Contact No. </label>
+                                <input type="text" class="form-control form-control-md mr-1" id="phone" placeholder="12345 12345">
+                            </div>
+                            <div class="form-group offset-md-1 col-md-4">
+                                <label for="phone">Email Address </label>
+                                <input type="email" class="form-control form-control-md mr-1" id="phoneId" placeholder="abc@xyz.com">
+                            </div>
+                        </div>
+                        <div class="form-row mt-md-2">
+                            <div class="form-group col-md-4">
+                                <label for="occupation">Occupation </label>
+                                <input type="text" class="form-control form-control-md mr-1" id="occupation" placeholder="Enter your Occpuation">
+                            </div>
+                            <div class="form-group offset-md-1 col-md-4">
+                                <label for="salary">Salary </label>
+                                <input type="text" class="form-control form-control-md mr-1" id="salary" placeholder="Annual Salary in Rupees (INR)">
+                            </div>
+                        </div>
+                        <div class="form-row mt-md-2">
+                            <div class="form-group col-12">
+                                <label for="address">Residency Address</label>
+                                <textarea class="form-control" id="address" rows="3">Enter the address of your residency</textarea>
+                            </div>
+                        </div>
+                        <div class="form-row mt-md-1">
+                            <label for="address">Donation Amount</label>
+                            <div class="form-group offset-md-1 col-md-4">
+                                <input type="text" class="form-control form-control-md mr-1" id="salary" placeholder="Enter Amount in Rupees (INR)">
+                            </div>
+                        </div>
+                        <div class="form-row mt-md-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="membership">
+                                <label class="form-check-label" for="membership">
+                                Do you wish to be a member of this organization? (You will receive an email regarding the details)
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-row mt-md-3">
+                            <button type="button" class="btn btn-secondary ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary ml-1 ml-md-2">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donation Modal End -->
+
         <!-- Jumbotron Start -->
         <header class="jumbotron">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-sm-6">
-                <h1>Freedom For You Foundation</h1>
-                <p class="mt-md-4">A Non-Governmental Organization (NGO) that actively empowers the citizens, especially the under-privileged, by conducting Awareness, Education and Training programs with a focus on the areas of  Socio-Economic, Health &amp; Wellness, Emergency Medical Response &amp; Disaster Risk Mitigation, Disaster Relief &amp; Rehabilitation, WASH (Water &amp; Sanitation Hygiene), and various other areas since the last 14 years!</p>
-              </div>
-              <div class="col-12 col-sm-3 align-self-center">
-                <img src="assets/images/freedom4u.png" class="img-fluid" alt="Freedom4U Foundation">
-              </div>
-              <div class="col-12 col-sm-3 align-self-center">
-                <a id="reserveButton" class="btn btn-block btn-lg btn-warning" role="button">Make a Donation!</a>
-              </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <h1>Freedom For You Foundation</h1>
+                        <p class="mt-md-4">A Non-Governmental Organization (NGO) that actively empowers the citizens, especially the under-privileged, by conducting Awareness, Education and Training programs with a focus on the areas of  Socio-Economic, Health &amp; Wellness, Emergency Medical Response &amp; Disaster Risk Mitigation, Disaster Relief &amp; Rehabilitation, WASH (Water &amp; Sanitation Hygiene), and various other areas since the last 14 years!</p>
+                    </div>
+                    <div class="col-12 col-sm-3 align-self-center">
+                        <img src="assets/images/freedom4u.png" class="img-fluid" alt="Freedom4U Foundation">
+                    </div>
+                    <div class="col-12 col-sm-3 align-self-center">
+                        <a id="donationButton" class="btn btn-block btn-lg btn-warning mt-4 mt-md-0" role="button">Make a Donation!</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </header>
         <!-- Jumbotron End -->
 
