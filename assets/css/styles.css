@@ -60,6 +60,11 @@ body {
     bottom: 0px;
     z-index: 1;
 }
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
 
 @media (min-width: 992px) {
     .carousel .carousel-item {
