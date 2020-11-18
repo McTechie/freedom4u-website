@@ -1,0 +1,32 @@
+body {
+    background-color: floralwhite;
+}
+::selection {
+    background: #5cbdaa;
+    color: floralwhite;
+}
+::-moz-selection {
+    background: #5cbdaa;
+    color: floralwhite;
+}
+.navbar-dark, .navbar-toggler-icon {
+    background-color: #5F33AC;
+}
+.navbar-brand {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.nav-item {
+    color: floralwhite;
+    font-size: 120%;
+}
+.jumbotron {
+    margin: 0px auto;
+    padding: 70px 30px;
+    background: #9575CD;
+    color: floralwhite;
+}
+
+@media (min-width: 992px) {
+
+}

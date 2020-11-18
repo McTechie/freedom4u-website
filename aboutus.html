@@ -16,8 +16,37 @@
         <!-- endbuild -->
     </head>
     <body>
-        <h1>About Us!</h1>
-        
+        <!-- Navbar Section Begins -->
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+          <div class="container">
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#Navbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand ml-auto mr-md-auto" href="#">
+              <img src="assets/images/freedom4u.png" height="50" width="70" alt="Freedom4U Foundation" />
+            </a>
+            <div class="collapse navbar-collapse" id="Navbar">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="./index.html"><span class="fa fa-home fa-lg"></span> &nbsp;Home</a></li>
+                <li class="nav-item ml-md-4"><a class="nav-link" href="#"><span class="fa fa-hand-holding-heart fa-lg"></span> &nbsp;About Us</a></li>
+                <li class="nav-item dropdown ml-md-4">
+                  <a class="nav-link dropdown-toggle" href="./projects.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="fa fa-sitemap fa-lg"></span> &nbsp;Our Work
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#projects"> <span class="fa fa-tasks fa-lg"></span> &nbsp; Previous Projects</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#plans"> <span class="fa fa-flask fa-lg"></span> &nbsp; Future Plans</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+                <li class="nav-item ml-md-4"><a class="nav-link" href="./gallery.html"><span class="far fa-images fa-lg"></span> &nbsp;Gallery</a></li>
+                <li class="nav-item ml-md-4"><a class="nav-link" href="./contactus.html"><span class="far fa-address-book fa-lg"></span> &nbsp; Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar Section Ends -->
+
         <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
         <!-- build:js js/main.js -->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
