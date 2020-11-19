@@ -101,12 +101,39 @@ body {
     margin-left: 6%;
 }
 .fade-in {
-  animation: fadeIn ease 3s;
-  -webkit-animation: fadeIn ease 3s;
-  -moz-animation: fadeIn ease 3s;
-  -o-animation: fadeIn ease 3s;
-  -ms-animation: fadeIn ease 3s;
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
 }
+
+@media (min-width: 992px) {
+    .greeting {
+        font-size: 700%;
+    }
+    .carousel-item {
+        height: 650px;
+    }
+    .carousel-indicators li {
+        background-color: #512DA8 !important;
+    }
+    .carousel-caption h5 {
+        color: #fff;
+        background-color: #512DA8;
+        padding: 1%;
+        font-size: 200%;
+    }
+    .card-img-top {
+        height: 400px;
+    }
+    .img-gallery {
+        width: 225px;
+        height: 180px;
+        margin-top: 3%;
+    }
+}
+
 @keyframes fadeIn {
   0% {
     opacity:0;
@@ -149,30 +176,4 @@ body {
   }
   100% {
     opacity:1;
-}
-
-@media (min-width: 992px) {
-    .greeting {
-        font-size: 700%;
-    }
-    .carousel-item {
-        height: 650px;
-    }
-    .carousel-indicators li {
-        background-color: #512DA8 !important;
-    }
-    .carousel-caption h5 {
-        color: #fff;
-        background-color: #512DA8;
-        padding: 1%;
-        font-size: 200%;
-    }
-    .card-img-top {
-        height: 400px;
-    }
-    .img-gallery {
-        width: 225px;
-        height: 180px;
-        margin-top: 3%;
-    }
 }
